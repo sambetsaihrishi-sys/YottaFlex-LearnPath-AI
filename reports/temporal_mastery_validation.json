@@ -1,9 +1,9 @@
 {
-  "evaluated_at": "2026-11-10T08:50:44.152712+00:00",
-  "total_recommendations": 12,
-  "matched_recommendations": 12,
+  "evaluated_at": "2026-11-10T11:50:46.016104+00:00",
+  "total_recommendations": 31,
+  "matched_recommendations": 31,
   "mismatched_recommendations": 0,
-  "future_assessments_excluded": 40,
+  "future_assessments_excluded": 53,
   "status": "PASS",
   "mismatches": []
 }

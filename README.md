@@ -236,6 +236,7 @@ For the full dataset:
 python -m generator.generate_master --scale full
 python -m generator.generate_attempts --scale full
 python -m app.mastery
+python -m app.recommender --learner LRN-000001
 ```
 
 For a smaller dataset suitable for quick testing:
@@ -314,7 +315,7 @@ All 15 tests passed on November 10, 2026. The warning was related to a third-par
 | Automated Tests | 15/15 PASS |
 | Relationship Validation | 9/9 PASS |
 | Negative-Case Benchmark | 10/10 PASS |
-| Temporal Mastery Validation | 12/12 PASS |
+| Temporal Mastery Validation | 31/31 PASS |
 | Starter Dataset Reproducibility | PASS |
 | Full Dataset Reproducibility | PASS |
 | SQL Restoration | 13/13 PASS |
