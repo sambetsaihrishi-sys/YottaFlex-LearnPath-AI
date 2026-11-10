@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "NEG-001",
+    "source_record_id": "PRE-000001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "PREREQUISITE_VIOLATION"
+    ]
+  },
+  {
+    "case_id": "OK-001",
+    "source_record_id": "PRE-000001",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-002",
+    "source_record_id": "ATT-LRN-000001-000001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "INVALID_ATTEMPT_TIMESTAMPS"
+    ]
+  },
+  {
+    "case_id": "OK-002",
+    "source_record_id": "ATT-LRN-000001-000001",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-003",
+    "source_record_id": "MAP-000001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "UNKNOWN_SKILL_REFERENCE"
+    ]
+  },
+  {
+    "case_id": "OK-003",
+    "source_record_id": "MAP-000001",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-004",
+    "source_record_id": "MST-000000001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "FUTURE_MASTERY_LEAKAGE"
+    ]
+  },
+  {
+    "case_id": "OK-004",
+    "source_record_id": "MST-000000001",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-005",
+    "source_record_id": "CNT-000001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "PATH_LOOP_NO_PROGRESS"
+    ]
+  },
+  {
+    "case_id": "OK-005",
+    "source_record_id": "CNT-000001",
+    "is_anomaly": false,
+    "expected_issues": []
+  }
+]

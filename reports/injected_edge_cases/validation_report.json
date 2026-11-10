@@ -1,0 +1,73 @@
+{
+  "scope": "10 isolated synthetic fixtures (5 negative, 5 valid controls); not production detection performance",
+  "total_cases": 10,
+  "exact_matches": 10,
+  "true_positives": 5,
+  "false_positives": 0,
+  "true_negatives": 5,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "predictions": [
+    {
+      "case_id": "NEG-001",
+      "detected_issues": [
+        "PREREQUISITE_VIOLATION"
+      ],
+      "status": "PASS"
+    },
+    {
+      "case_id": "OK-001",
+      "detected_issues": [],
+      "status": "PASS"
+    },
+    {
+      "case_id": "NEG-002",
+      "detected_issues": [
+        "INVALID_ATTEMPT_TIMESTAMPS"
+      ],
+      "status": "PASS"
+    },
+    {
+      "case_id": "OK-002",
+      "detected_issues": [],
+      "status": "PASS"
+    },
+    {
+      "case_id": "NEG-003",
+      "detected_issues": [
+        "UNKNOWN_SKILL_REFERENCE"
+      ],
+      "status": "PASS"
+    },
+    {
+      "case_id": "OK-003",
+      "detected_issues": [],
+      "status": "PASS"
+    },
+    {
+      "case_id": "NEG-004",
+      "detected_issues": [
+        "FUTURE_MASTERY_LEAKAGE"
+      ],
+      "status": "PASS"
+    },
+    {
+      "case_id": "OK-004",
+      "detected_issues": [],
+      "status": "PASS"
+    },
+    {
+      "case_id": "NEG-005",
+      "detected_issues": [
+        "PATH_LOOP_NO_PROGRESS"
+      ],
+      "status": "PASS"
+    },
+    {
+      "case_id": "OK-005",
+      "detected_issues": [],
+      "status": "PASS"
+    }
+  ]
+}
