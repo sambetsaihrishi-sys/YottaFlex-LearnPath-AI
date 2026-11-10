@@ -1,0 +1,32 @@
+[
+  {
+    "result_id": "RES-000000001",
+    "attempt_id": "ATT-LRN-000001-000001",
+    "score": 32.4,
+    "assessed_at": "2026-01-05T09:36:00"
+  },
+  {
+    "result_id": "RES-000000002",
+    "attempt_id": "ATT-LRN-000002-000001",
+    "score": 75.73,
+    "assessed_at": "2026-03-11T08:55:00"
+  },
+  {
+    "result_id": "RES-000000003",
+    "attempt_id": "ATT-LRN-000003-000001",
+    "score": 32.37,
+    "assessed_at": "2026-01-03T08:26:00"
+  },
+  {
+    "result_id": "RES-000000004",
+    "attempt_id": "ATT-LRN-000004-000001",
+    "score": 43.16,
+    "assessed_at": "2026-01-19T05:13:00"
+  },
+  {
+    "result_id": "RES-000000005",
+    "attempt_id": "ATT-LRN-000005-000001",
+    "score": 14.07,
+    "assessed_at": "2026-01-12T04:22:00"
+  }
+]

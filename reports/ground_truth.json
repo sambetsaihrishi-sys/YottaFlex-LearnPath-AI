@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "NEG-001",
+    "expected_label": "PREREQUISITE_VIOLATION"
+  },
+  {
+    "case_id": "NEG-002",
+    "expected_label": "INVALID_ATTEMPT_TIMESTAMP"
+  },
+  {
+    "case_id": "NEG-003",
+    "expected_label": "MISSING_SKILL_REFERENCE"
+  },
+  {
+    "case_id": "NEG-004",
+    "expected_label": "FUTURE_MASTERY_LEAKAGE"
+  },
+  {
+    "case_id": "NEG-005",
+    "expected_label": "LEARNING_PATH_NO_PROGRESS_LOOP"
+  }
+]

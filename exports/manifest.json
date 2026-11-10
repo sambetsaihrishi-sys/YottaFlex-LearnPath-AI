@@ -1,0 +1,72 @@
+{
+  "project": "YottaFlex LearnPath AI",
+  "seed": 20261022,
+  "generated_at": "2026-11-10T10:07:52.956272+00:00",
+  "tables": {
+    "learners": {
+      "rows": 10000,
+      "csv_file": "exports\\csv\\learners.csv",
+      "sha256": "2f4049e2826609b32c5afbed5ea969ee4891c96ea7244e7d4eadfd8e49444490"
+    },
+    "courses": {
+      "rows": 50,
+      "csv_file": "exports\\csv\\courses.csv",
+      "sha256": "8485bae442eb7ff7f2fbf7ce27f6dd61c1f2443fc520e67b7868ba8d0c1f0720"
+    },
+    "skills": {
+      "rows": 500,
+      "csv_file": "exports\\csv\\skills.csv",
+      "sha256": "a9f7d323cbabe9a11b32331d6a334c323a703c43fe3881a95fee837e8bdf3fba"
+    },
+    "skill_prerequisites": {
+      "rows": 450,
+      "csv_file": "exports\\csv\\skill_prerequisites.csv",
+      "sha256": "5df41db45fd8b235cc673b002fc84d4dff1cff834258ee442f8d6bfcaf11d32b"
+    },
+    "content_items": {
+      "rows": 2000,
+      "csv_file": "exports\\csv\\content_items.csv",
+      "sha256": "1d7bf8170449dc850c479f84ea406d08fc1596ee05ffee32e5883c915fc4eea2"
+    },
+    "content_skills": {
+      "rows": 2000,
+      "csv_file": "exports\\csv\\content_skills.csv",
+      "sha256": "f4d5e19e4aba1ab7a6a31ca24b3b56be84fa3b5b7bd606eecd924ccb0984c874"
+    },
+    "attempts": {
+      "rows": 500008,
+      "csv_file": "exports\\csv\\attempts.csv",
+      "sha256": "a01eadbcede32e51d7795d4a1ebdf40a065aaa8131a2bec913ad76a57f07834f"
+    },
+    "assessment_results": {
+      "rows": 500008,
+      "csv_file": "exports\\csv\\assessment_results.csv",
+      "sha256": "5eedfc1a64161775a0e46ca3693fc7ad299b7382505566d812781df54f3a3774"
+    },
+    "learning_paths": {
+      "rows": 2,
+      "csv_file": "exports\\csv\\learning_paths.csv",
+      "sha256": "2129db78d2613e34457cab435a016c5ddbabdb4ad5a858e22fd8447b664e3819"
+    },
+    "recommendations": {
+      "rows": 31,
+      "csv_file": "exports\\csv\\recommendations.csv",
+      "sha256": "4d039d846ea7ff95d9e6cfdf083413e14c1477c78f440876c654f5f11e781eef"
+    },
+    "mastery_snapshots": {
+      "rows": 179492,
+      "csv_file": "exports\\csv\\mastery_snapshots.csv",
+      "sha256": "025099ca1f4a25d1f2c0aff4246791494379e82fa4d1584908076bd8d1d22aee"
+    },
+    "recommendation_events": {
+      "rows": 39,
+      "csv_file": "exports\\csv\\recommendation_events.csv",
+      "sha256": "3ad5df76413fd4bb4e9cd27c6530138ad02be250ee057a3d494f58aff5f9eae8"
+    },
+    "learning_path_steps": {
+      "rows": 8,
+      "csv_file": "exports\\csv\\learning_path_steps.csv",
+      "sha256": "c2b1f7dcbf99b8a6878ed5a84f0d5ea7fd8bb488378459974574477b5080daa7"
+    }
+  }
+}

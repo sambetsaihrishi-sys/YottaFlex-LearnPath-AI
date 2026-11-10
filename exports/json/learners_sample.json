@@ -1,0 +1,32 @@
+[
+  {
+    "learner_id": "LRN-000001",
+    "name": "Synthetic Learner 00001",
+    "enrolled_at": "2026-01-04T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "learner_id": "LRN-000002",
+    "name": "Synthetic Learner 00002",
+    "enrolled_at": "2026-03-10T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "learner_id": "LRN-000003",
+    "name": "Synthetic Learner 00003",
+    "enrolled_at": "2026-01-02T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "learner_id": "LRN-000004",
+    "name": "Synthetic Learner 00004",
+    "enrolled_at": "2026-01-18T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "learner_id": "LRN-000005",
+    "name": "Synthetic Learner 00005",
+    "enrolled_at": "2026-01-11T00:00:00",
+    "status": "ACTIVE"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "snapshot_id": "MST-000000001",
+    "learner_id": "LRN-000001",
+    "skill_id": "SKL-000371",
+    "mastery_score": 0.3447,
+    "assessment_count": 5,
+    "calculation_method": "RECENCY_WEIGHTED_LAST_5",
+    "calculated_at": "2026-11-10T06:16:24.100236"
+  },
+  {
+    "snapshot_id": "MST-000000002",
+    "learner_id": "LRN-000001",
+    "skill_id": "SKL-000372",
+    "mastery_score": 0.3997,
+    "assessment_count": 3,
+    "calculation_method": "RECENCY_WEIGHTED_LAST_5",
+    "calculated_at": "2026-11-10T06:16:24.100236"
+  },
+  {
+    "snapshot_id": "MST-000000003",
+    "learner_id": "LRN-000001",
+    "skill_id": "SKL-000373",
+    "mastery_score": 0.2878,
+    "assessment_count": 7,
+    "calculation_method": "RECENCY_WEIGHTED_LAST_5",
+    "calculated_at": "2026-11-10T06:16:24.100236"
+  },
+  {
+    "snapshot_id": "MST-000000004",
+    "learner_id": "LRN-000001",
+    "skill_id": "SKL-000374",
+    "mastery_score": 0.2773,
+    "assessment_count": 3,
+    "calculation_method": "RECENCY_WEIGHTED_LAST_5",
+    "calculated_at": "2026-11-10T06:16:24.100236"
+  },
+  {
+    "snapshot_id": "MST-000000005",
+    "learner_id": "LRN-000001",
+    "skill_id": "SKL-000375",
+    "mastery_score": 0.4433,
+    "assessment_count": 4,
+    "calculation_method": "RECENCY_WEIGHTED_LAST_5",
+    "calculated_at": "2026-11-10T06:16:24.100236"
+  }
+]

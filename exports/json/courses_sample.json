@@ -1,0 +1,32 @@
+[
+  {
+    "course_id": "CRS-000001",
+    "title": "Python Programming - Level 1",
+    "created_at": "2026-01-01T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "course_id": "CRS-000002",
+    "title": "Machine Learning - Level 1",
+    "created_at": "2026-01-01T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "course_id": "CRS-000003",
+    "title": "Data Science - Level 1",
+    "created_at": "2026-01-01T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "course_id": "CRS-000004",
+    "title": "Artificial Intelligence - Level 1",
+    "created_at": "2026-01-01T00:00:00",
+    "status": "ACTIVE"
+  },
+  {
+    "course_id": "CRS-000005",
+    "title": "Web Development - Level 1",
+    "created_at": "2026-01-01T00:00:00",
+    "status": "ACTIVE"
+  }
+]

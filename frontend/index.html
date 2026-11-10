@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnPath AI | Adaptive Learning</title>
+
+<style>
+:root {
+  --bg: #080e1c;
+  --card: #111c30;
+  --border: #24334b;
+  --text: #edf3ff;
+  --muted: #9aaac2;
+  --accent: #7c7cff;
+  --green: #37d6a0;
+  --yellow: #ffca70;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+}
+
+header {
+  padding: 25px 6%;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.logo span {
+  color: var(--accent);
+}
+
+.badge {
+  background: #153b35;
+  color: var(--green);
+  padding: 9px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+main {
+  max-width: 1250px;
+  margin: auto;
+  padding: 35px 24px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 23px;
+}
+
+.stat-label {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.stat-value {
+  font-size: 33px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+select,
+button {
+  border-radius: 10px;
+  padding: 13px 16px;
+  font-size: 14px;
+}
+
+select {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  min-width: 260px;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  filter: brightness(1.15);
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.section-title {
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+.track {
+  height: 10px;
+  background: #263550;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 20px;
+}
+
+.fill.good {
+  background: var(--green);
+}
+
+.rec {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  margin-bottom: 13px;
+}
+
+.rec h3 {
+  margin: 0 0 9px;
+  font-size: 16px;
+}
+
+.rec p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.pill {
+  display: inline-block;
+  font-size: 11px;
+  background: #27325a;
+  padding: 6px 10px;
+  border-radius: 20px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.empty {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.error {
+  color: #ff8b9a;
+}
+
+.complete-activity-btn {
+  margin-top: 14px;
+  padding: 11px 18px;
+  border: none;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.complete-activity-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.complete-activity-btn:active {
+  transform: translateY(0);
+}
+
+.complete-activity-btn:disabled {
+  background: #334155;
+  opacity: 0.65;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media(max-width: 800px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">LearnPath <span>AI</span></div>
+  <div class="badge" id="status">● Connecting...</div>
+</header>
+
+<main>
+
+  <h1>Adaptive Learning Intelligence</h1>
+
+  <p class="subtitle">
+    Personalized learning journeys powered by mastery and prerequisite intelligence.
+  </p>
+
+  <section class="stats">
+
+    <div class="card">
+      <div class="stat-label">Total Learners</div>
+      <div class="stat-value" id="learnersCount">—</div>
+    </div>
+
+    <div class="card">
+      <div class="stat-label">Skills Tracked</div>
+      <div class="stat-value" id="skillsCount">—</div>
+    </div>
+
+    <div class="card">
+      <div class="stat-label">Learning Activities</div>
+      <div class="stat-value" id="contentCount">—</div>
+    </div>
+
+    <div class="card">
+      <div class="stat-label">Learning Attempts</div>
+      <div class="stat-value" id="attemptsCount">—</div>
+    </div>
+
+  </section>
+
+  <div class="toolbar">
+
+    <select
+      id="learnerSelect"
+      aria-label="Select learner"
+    ></select>
+
+    <button id="recommendButton">
+      ✦ Generate Recommendations
+    </button>
+
+  </div>
+
+  <div class="grid">
+
+    <section class="card">
+
+      <h2 class="section-title">
+        Skill Mastery
+      </h2>
+
+      <div
+        id="masteryContainer"
+        class="empty"
+      >
+        Select a learner to view mastery.
+      </div>
+
+    </section>
+
+    <section class="card">
+
+      <h2 class="section-title">
+        Personalized Recommendations
+      </h2>
+
+      <div
+        id="recommendationsContainer"
+        class="empty"
+      >
+        Generate recommendations to see your personalized learning path.
+      </div>
+
+    </section>
+
+  </div>
+
+  <section
+    class="card"
+    style="margin-top:20px"
+  >
+
+    <h2 class="section-title">
+      Learning Paths
+    </h2>
+
+    <div
+      id="pathsContainer"
+      class="empty"
+    >
+      No learning paths loaded.
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  YottaFlex LearnPath AI · Explainable Recommendations · Synthetic Data
+</footer>
+
+<script>
+
+const API = "/api";
+
+const $ = id => document.getElementById(id);
+
+
+function escapeHTML(value) {
+  return String(value ?? "").replace(
+    /[&<>"']/g,
+    char => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    })[char]
+  );
+}
+
+
+async function request(url, options = {}) {
+
+  const response = await fetch(url, options);
+
+  const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error(data.detail || "Request failed");
+  }
+
+  return data;
+}
+
+
+async function loadStats() {
+
+  const stats = await request(`${API}/stats`);
+
+  $("learnersCount").textContent =
+    stats.learners.toLocaleString();
+
+  $("skillsCount").textContent =
+    stats.skills.toLocaleString();
+
+  $("contentCount").textContent =
+    stats.content_items.toLocaleString();
+
+  $("attemptsCount").textContent =
+    stats.attempts.toLocaleString();
+
+}
+
+
+async function loadLearners() {
+
+  const data = await request(
+    `${API}/learners?limit=100`
+  );
+
+  $("learnerSelect").innerHTML =
+    data.learners.map(learner =>
+
+      `<option value="${escapeHTML(learner.learner_id)}">
+        ${escapeHTML(learner.name)}
+        (${escapeHTML(learner.learner_id)})
+      </option>`
+
+    ).join("");
+
+  await loadLearnerData();
+
+}
+
+
+async function loadLearnerData() {
+
+  const learner = $("learnerSelect").value;
+
+  $("recommendationsContainer").innerHTML =
+    '<p class="empty">Click Generate Recommendations to create a learning path.</p>';
+
+  const [mastery, paths] = await Promise.all([
+
+    request(
+      `${API}/learners/${encodeURIComponent(learner)}/mastery`
+    ),
+
+    request(
+      `${API}/learners/${encodeURIComponent(learner)}/paths`
+    )
+
+  ]);
+
+  $("masteryContainer").innerHTML =
+    mastery.skills.length
+
+      ? mastery.skills.map(skill => {
+
+          const percent = Math.max(
+            0,
+            Math.min(
+              100,
+              skill.mastery_score * 100
+            )
+          );
+
+          return `
+            <div class="skill">
+
+              <div class="skill-top">
+
+                <span>
+                  ${escapeHTML(skill.skill_name)}
+                  (${escapeHTML(skill.skill_id)})
+                </span>
+
+                <strong>
+                  ${percent.toFixed(1)}%
+                </strong>
+
+              </div>
+
+              <div class="track">
+
+                <div
+                  class="fill ${percent >= 70 ? "good" : ""}"
+                  style="width:${percent}%"
+                ></div>
+
+              </div>
+
+            </div>
+          `;
+
+        }).join("")
+
+      : '<p class="empty">Cold-start learner: no assessments yet. The system can recommend introductory activities.</p>';
+
+  $("pathsContainer").innerHTML =
+    paths.paths.length
+
+      ? paths.paths.map(path =>
+
+          `<div class="rec">
+
+            <h3>
+              ${escapeHTML(path.course_title)}
+            </h3>
+
+            <p>
+              Path: ${escapeHTML(path.path_id)}
+              · Status: ${escapeHTML(path.status)}
+            </p>
+
+          </div>`
+
+        ).join("")
+
+      : '<p class="empty">No learning path created yet.</p>';
+
+}
+
+
+async function generateRecommendations() {
+
+  const learner = $("learnerSelect").value;
+
+  const button = $("recommendButton");
+
+  button.disabled = true;
+
+  button.textContent = "Generating...";
+
+  try {
+
+    const data = await request(
+
+      `${API}/learners/${encodeURIComponent(learner)}/recommend?limit=5`,
+
+      {
+        method: "POST"
+      }
+
+    );
+
+    $("recommendationsContainer").innerHTML =
+      data.recommendations.length
+
+        ? data.recommendations.map(item =>
+
+            `<article class="rec">
+
+              <h3>
+                #${item.priority_rank}
+                ${escapeHTML(item.content_title)}
+              </h3>
+
+              <span class="pill">
+                ${escapeHTML(item.format)}
+              </span>
+
+              <span class="pill">
+                Difficulty ${item.difficulty}
+              </span>
+
+              <span class="pill">
+                Mastery ${(item.mastery * 100).toFixed(1)}%
+              </span>
+
+              <p>
+                ${escapeHTML(item.rationale)}
+              </p>
+
+              <p>
+                Reason: ${escapeHTML(item.reason_code)}
+              </p>
+
+              <button
+                class="complete-activity-btn"
+                data-recommendation-id="${escapeHTML(item.recommendation_id)}"
+              >
+                ✓ Complete Activity
+              </button>
+
+            </article>`
+
+          ).join("")
+
+        : '<p class="empty">No eligible recommendations found.</p>';
+
+    await loadPathsOnly(learner);
+
+  } catch (error) {
+
+    $("recommendationsContainer").innerHTML =
+      `<p class="error">${escapeHTML(error.message)}</p>`;
+
+  } finally {
+
+    button.disabled = false;
+
+    button.textContent =
+      "✦ Generate Recommendations";
+
+  }
+
+}
+
+
+async function completeActivity(recommendationId, button) {
+
+  const input = prompt(
+    "Enter the learner's assessment score (0–100):"
+  );
+
+  if (input === null) {
+    return;
+  }
+
+  if (input.trim() === "") {
+    alert("Please enter a score.");
+    return;
+  }
+
+  const score = Number(input);
+
+  if (
+    !Number.isFinite(score) ||
+    score < 0 ||
+    score > 100
+  ) {
+
+    alert(
+      "Please enter a valid score between 0 and 100."
+    );
+
+    return;
+  }
+
+  button.disabled = true;
+
+  button.textContent = "Submitting...";
+
+  try {
+
+    const result = await request(
+      `${API}/recommendations/${encodeURIComponent(recommendationId)}/complete`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          score: score
+        })
+      }
+    );
+
+    if (
+      typeof result.mastery_before !== "number" ||
+      typeof result.mastery_after !== "number"
+    ) {
+
+      throw new Error(
+        "Activity was submitted, but mastery values were not returned."
+      );
+
+    }
+
+    const before = result.mastery_before;
+
+    const after = result.mastery_after;
+
+    const improvement = after - before;
+
+    alert(
+
+      `Activity completed successfully!\n\n` +
+
+      `Assessment Score: ${score}/100\n` +
+
+      `Previous Mastery: ${(before * 100).toFixed(1)}%\n` +
+
+      `Updated Mastery: ${(after * 100).toFixed(1)}%\n` +
+
+      `Mastery Change: ${(improvement * 100).toFixed(1)} percentage points`
+
+    );
+
+    await loadLearnerData();
+
+    await loadStats();
+
+  } catch (error) {
+
+    alert(`Error: ${error.message}`);
+
+    button.disabled = false;
+
+    button.textContent = "✓ Complete Activity";
+
+  }
+
+}
+
+
+async function loadPathsOnly(learner) {
+
+  const data = await request(
+    `${API}/learners/${encodeURIComponent(learner)}/paths`
+  );
+
+  $("pathsContainer").innerHTML =
+    data.paths.length
+
+      ? data.paths.map(path =>
+
+          `<div class="rec">
+
+            <h3>
+              ${escapeHTML(path.course_title)}
+            </h3>
+
+            <p>
+              ${escapeHTML(path.path_id)}
+              · ${escapeHTML(path.status)}
+            </p>
+
+          </div>`
+
+        ).join("")
+
+      : '<p class="empty">No learning paths available.</p>';
+
+}
+
+
+async function initialize() {
+
+  try {
+
+    await request("/health");
+
+    $("status").textContent =
+      "● System Online";
+
+    await loadStats();
+
+    await loadLearners();
+
+  } catch (error) {
+
+    $("status").textContent =
+      "● Connection Error";
+
+    $("masteryContainer").innerHTML =
+      `<p class="error">${escapeHTML(error.message)}</p>`;
+
+  }
+
+}
+
+
+$("learnerSelect").addEventListener(
+  "change",
+  loadLearnerData
+);
+
+
+$("recommendButton").addEventListener(
+  "click",
+  generateRecommendations
+);
+
+
+$("recommendationsContainer").addEventListener(
+  "click",
+  async event => {
+
+    const button = event.target.closest(
+      ".complete-activity-btn"
+    );
+
+    if (!button) {
+      return;
+    }
+
+    if (button.disabled) {
+      return;
+    }
+
+    const recommendationId =
+      button.dataset.recommendationId;
+
+    if (!recommendationId) {
+      alert("Recommendation ID is missing.");
+      return;
+    }
+
+    await completeActivity(
+      recommendationId,
+      button
+    );
+
+  }
+);
+
+
+initialize();
+
+</script>
+
+</body>
+</html>

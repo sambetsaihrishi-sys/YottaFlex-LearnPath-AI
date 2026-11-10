@@ -1,0 +1,47 @@
+[
+  {
+    "prerequisite_id": "PRE-000001",
+    "skill_id": "SKL-000002",
+    "required_skill_id": "SKL-000001",
+    "minimum_mastery": 0.7,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null,
+    "status": "ACTIVE"
+  },
+  {
+    "prerequisite_id": "PRE-000002",
+    "skill_id": "SKL-000003",
+    "required_skill_id": "SKL-000002",
+    "minimum_mastery": 0.7,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null,
+    "status": "ACTIVE"
+  },
+  {
+    "prerequisite_id": "PRE-000003",
+    "skill_id": "SKL-000004",
+    "required_skill_id": "SKL-000003",
+    "minimum_mastery": 0.7,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null,
+    "status": "ACTIVE"
+  },
+  {
+    "prerequisite_id": "PRE-000004",
+    "skill_id": "SKL-000005",
+    "required_skill_id": "SKL-000004",
+    "minimum_mastery": 0.7,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null,
+    "status": "ACTIVE"
+  },
+  {
+    "prerequisite_id": "PRE-000005",
+    "skill_id": "SKL-000006",
+    "required_skill_id": "SKL-000005",
+    "minimum_mastery": 0.7,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null,
+    "status": "ACTIVE"
+  }
+]

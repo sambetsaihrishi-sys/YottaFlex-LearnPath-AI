@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "EVT-000000001",
+    "recommendation_id": "REC-000000001",
+    "event_type": "GENERATED",
+    "occurred_at": "2026-11-10T06:23:15.693104"
+  },
+  {
+    "event_id": "EVT-000000002",
+    "recommendation_id": "REC-000000002",
+    "event_type": "GENERATED",
+    "occurred_at": "2026-11-10T06:23:15.693104"
+  },
+  {
+    "event_id": "EVT-000000003",
+    "recommendation_id": "REC-000000003",
+    "event_type": "GENERATED",
+    "occurred_at": "2026-11-10T06:23:15.693104"
+  },
+  {
+    "event_id": "EVT-000000004",
+    "recommendation_id": "REC-000000004",
+    "event_type": "GENERATED",
+    "occurred_at": "2026-11-10T06:23:15.693104"
+  },
+  {
+    "event_id": "EVT-000000005",
+    "recommendation_id": "REC-000000001",
+    "event_type": "COMPLETED",
+    "occurred_at": "2026-11-10T06:53:15.693104"
+  }
+]

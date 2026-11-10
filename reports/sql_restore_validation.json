@@ -1,0 +1,86 @@
+{
+  "sql_seed_sha256": "e5cfb2c697b5e448f641a0a98c7a0ff4cc23911694c2c1cbbcc3b0d397695280",
+  "tables": {
+    "courses": {
+      "original_count": 50,
+      "restored_count": 50,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "learners": {
+      "original_count": 10000,
+      "restored_count": 10000,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "skills": {
+      "original_count": 500,
+      "restored_count": 500,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "skill_prerequisites": {
+      "original_count": 450,
+      "restored_count": 450,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "content_items": {
+      "original_count": 2000,
+      "restored_count": 2000,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "content_skills": {
+      "original_count": 2000,
+      "restored_count": 2000,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "learning_paths": {
+      "original_count": 2,
+      "restored_count": 2,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "recommendations": {
+      "original_count": 31,
+      "restored_count": 31,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "attempts": {
+      "original_count": 500008,
+      "restored_count": 500008,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "assessment_results": {
+      "original_count": 500008,
+      "restored_count": 500008,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "mastery_snapshots": {
+      "original_count": 179492,
+      "restored_count": 179492,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "recommendation_events": {
+      "original_count": 39,
+      "restored_count": 39,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "learning_path_steps": {
+      "original_count": 8,
+      "restored_count": 8,
+      "hash_match": true,
+      "status": "PASS"
+    }
+  },
+  "foreign_key_violations": 0,
+  "integrity_check": "ok",
+  "status": "PASS"
+}

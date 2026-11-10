@@ -1,0 +1,32 @@
+[
+  {
+    "mapping_id": "MAP-000001",
+    "content_id": "CNT-000001",
+    "skill_id": "SKL-000001",
+    "weight": 1.0
+  },
+  {
+    "mapping_id": "MAP-000002",
+    "content_id": "CNT-000002",
+    "skill_id": "SKL-000002",
+    "weight": 1.0
+  },
+  {
+    "mapping_id": "MAP-000003",
+    "content_id": "CNT-000003",
+    "skill_id": "SKL-000003",
+    "weight": 1.0
+  },
+  {
+    "mapping_id": "MAP-000004",
+    "content_id": "CNT-000004",
+    "skill_id": "SKL-000004",
+    "weight": 1.0
+  },
+  {
+    "mapping_id": "MAP-000005",
+    "content_id": "CNT-000005",
+    "skill_id": "SKL-000005",
+    "weight": 1.0
+  }
+]

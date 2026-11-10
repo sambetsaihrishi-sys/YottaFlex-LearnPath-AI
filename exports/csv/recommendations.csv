@@ -1,0 +1,32 @@
+recommendation_id,learner_id,path_id,content_id,target_skill_id,generated_at,mastery_at_decision,reason_code,rationale,priority_rank
+REC-000000001,LRN-000001,PATH-2026-000001,CNT-001371,SKL-000371,2026-11-10T06:23:15.693104,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,1
+REC-000000002,LRN-000001,PATH-2026-000001,CNT-000871,SKL-000371,2026-11-10T06:23:15.693104,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,2
+REC-000000003,LRN-000001,PATH-2026-000001,CNT-001871,SKL-000371,2026-11-10T06:23:15.693104,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,3
+REC-000000004,LRN-000001,PATH-2026-000001,CNT-000371,SKL-000371,2026-11-10T06:23:15.693104,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,4
+REC-000000005,LRN-000001,PATH-2026-000001,CNT-001371,SKL-000371,2026-11-10T06:47:32.263887,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,1
+REC-000000006,LRN-000001,PATH-2026-000001,CNT-000871,SKL-000371,2026-11-10T06:47:32.263887,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,2
+REC-000000007,LRN-000001,PATH-2026-000001,CNT-001871,SKL-000371,2026-11-10T06:47:32.263887,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,3
+REC-000000008,LRN-000001,PATH-2026-000001,CNT-000371,SKL-000371,2026-11-10T06:47:32.263887,0.3447,LOW_MASTERY,Current mastery is 34%. Foundational practice is recommended.,4
+REC-000000009,LRN-000001,PATH-2026-000001,CNT-001871,SKL-000371,2026-11-10T07:16:20.046895,0.6943,MASTERY_GAP,"Current mastery is 69%, below the required 70%. Additional practice is recommended.",1
+REC-000000010,LRN-000001,PATH-2026-000001,CNT-001371,SKL-000371,2026-11-10T07:16:20.046895,0.6943,MASTERY_GAP,"Current mastery is 69%, below the required 70%. Additional practice is recommended.",2
+REC-000000011,LRN-000001,PATH-2026-000001,CNT-000871,SKL-000371,2026-11-10T07:16:20.046895,0.6943,MASTERY_GAP,"Current mastery is 69%, below the required 70%. Additional practice is recommended.",3
+REC-000000012,LRN-000001,PATH-2026-000001,CNT-000371,SKL-000371,2026-11-10T07:16:20.046895,0.6943,MASTERY_GAP,"Current mastery is 69%, below the required 70%. Additional practice is recommended.",4
+REC-000000013,LRN-000001,PATH-2026-000001,CNT-000372,SKL-000372,2026-11-10T09:30:48.878787,0.3997,LOW_MASTERY,Current mastery is 40%. Foundational practice is recommended.,1
+REC-000000014,LRN-000001,PATH-2026-000001,CNT-001872,SKL-000372,2026-11-10T09:30:48.878787,0.3997,LOW_MASTERY,Current mastery is 40%. Foundational practice is recommended.,2
+REC-000000015,LRN-000001,PATH-2026-000001,CNT-000872,SKL-000372,2026-11-10T09:30:48.878787,0.3997,LOW_MASTERY,Current mastery is 40%. Foundational practice is recommended.,3
+REC-000000016,LRN-000001,PATH-2026-000001,CNT-001372,SKL-000372,2026-11-10T09:30:48.878787,0.3997,LOW_MASTERY,Current mastery is 40%. Foundational practice is recommended.,4
+REC-000000017,LRN-000002,PATH-2026-000002,CNT-001904,SKL-000404,2026-11-10T09:40:05.513271,0.6773,MASTERY_GAP,"Current mastery is 68%, below the required 70%. Additional practice is recommended.",1
+REC-000000018,LRN-000002,PATH-2026-000002,CNT-000407,SKL-000407,2026-11-10T09:40:05.513271,0.697,MASTERY_GAP,"Current mastery is 70%, below the required 70%. Additional practice is recommended.",2
+REC-000000019,LRN-000002,PATH-2026-000002,CNT-001901,SKL-000401,2026-11-10T09:40:05.513271,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",3
+REC-000000020,LRN-000002,PATH-2026-000002,CNT-000901,SKL-000401,2026-11-10T09:40:05.513271,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",4
+REC-000000021,LRN-000002,PATH-2026-000002,CNT-001401,SKL-000401,2026-11-10T09:40:05.513271,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",5
+REC-000000022,LRN-000002,PATH-2026-000002,CNT-001904,SKL-000404,2026-11-10T09:43:17.906828,0.6773,MASTERY_GAP,"Current mastery is 68%, below the required 70%. Additional practice is recommended.",1
+REC-000000023,LRN-000002,PATH-2026-000002,CNT-000407,SKL-000407,2026-11-10T09:43:17.906828,0.697,MASTERY_GAP,"Current mastery is 70%, below the required 70%. Additional practice is recommended.",2
+REC-000000024,LRN-000002,PATH-2026-000002,CNT-001901,SKL-000401,2026-11-10T09:43:17.906828,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",3
+REC-000000025,LRN-000002,PATH-2026-000002,CNT-000901,SKL-000401,2026-11-10T09:43:17.906828,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",4
+REC-000000026,LRN-000002,PATH-2026-000002,CNT-001401,SKL-000401,2026-11-10T09:43:17.906828,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",5
+REC-000000027,LRN-000002,PATH-2026-000002,CNT-001904,SKL-000404,2026-11-10T10:03:18.818520,0.6773,MASTERY_GAP,"Current mastery is 68%, below the required 70%. Additional practice is recommended.",1
+REC-000000028,LRN-000002,PATH-2026-000002,CNT-000407,SKL-000407,2026-11-10T10:03:18.818520,0.697,MASTERY_GAP,"Current mastery is 70%, below the required 70%. Additional practice is recommended.",2
+REC-000000029,LRN-000002,PATH-2026-000002,CNT-001901,SKL-000401,2026-11-10T10:03:18.818520,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",3
+REC-000000030,LRN-000002,PATH-2026-000002,CNT-000901,SKL-000401,2026-11-10T10:03:18.818520,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",4
+REC-000000031,LRN-000002,PATH-2026-000002,CNT-001401,SKL-000401,2026-11-10T10:03:18.818520,0.637,MASTERY_GAP,"Current mastery is 64%, below the required 70%. Additional practice is recommended.",5

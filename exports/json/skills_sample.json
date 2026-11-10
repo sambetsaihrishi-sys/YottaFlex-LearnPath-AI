@@ -1,0 +1,32 @@
+[
+  {
+    "skill_id": "SKL-000001",
+    "course_id": "CRS-000001",
+    "name": "Skill 01",
+    "difficulty": 1
+  },
+  {
+    "skill_id": "SKL-000002",
+    "course_id": "CRS-000001",
+    "name": "Skill 02",
+    "difficulty": 1
+  },
+  {
+    "skill_id": "SKL-000003",
+    "course_id": "CRS-000001",
+    "name": "Skill 03",
+    "difficulty": 1
+  },
+  {
+    "skill_id": "SKL-000004",
+    "course_id": "CRS-000001",
+    "name": "Skill 04",
+    "difficulty": 1
+  },
+  {
+    "skill_id": "SKL-000005",
+    "course_id": "CRS-000001",
+    "name": "Skill 05",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-10T10:08:45.434739+00:00",
+  "source_database": "C:\\Users\\Rishi\\OneDrive\\Desktop\\YottaFlex-LearnPath-AI\\data\\learnpath.db",
+  "sql_seed_file": "C:\\Users\\Rishi\\OneDrive\\Desktop\\YottaFlex-LearnPath-AI\\exports\\sql\\learnpath_seed.sql",
+  "sha256": "e5cfb2c697b5e448f641a0a98c7a0ff4cc23911694c2c1cbbcc3b0d397695280",
+  "table_counts": {
+    "courses": 50,
+    "learners": 10000,
+    "skills": 500,
+    "skill_prerequisites": 450,
+    "content_items": 2000,
+    "content_skills": 2000,
+    "learning_paths": 2,
+    "recommendations": 31,
+    "attempts": 500008,
+    "assessment_results": 500008,
+    "mastery_snapshots": 179492,
+    "recommendation_events": 39,
+    "learning_path_steps": 8
+  },
+  "total_rows": 1194588,
+  "requires_schema": true
+}

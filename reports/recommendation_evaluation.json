@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-11-10T07:24:22.037969+00:00",
+  "total_recommendations": 12,
+  "metrics": {
+    "content_relevance_rate": 1.0,
+    "prerequisite_compliance_rate": 1.0,
+    "course_consistency_rate": 1.0,
+    "traceability_rate": 1.0,
+    "fully_valid_rate": 1.0
+  },
+  "failures": {
+    "content_relevance": 0,
+    "prerequisite_compliance": 0,
+    "course_consistency": 0,
+    "traceability": 0
+  },
+  "details": [
+    {
+      "recommendation_id": "REC-000000001",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000002",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000003",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000004",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000005",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000006",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000007",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000008",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000009",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000010",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000011",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    },
+    {
+      "recommendation_id": "REC-000000012",
+      "checks": {
+        "content_relevance": true,
+        "prerequisite_compliance": true,
+        "course_consistency": true,
+        "traceability": true
+      },
+      "prerequisite_violations": [],
+      "passed": true
+    }
+  ]
+}

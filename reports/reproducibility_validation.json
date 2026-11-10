@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-11-10T09:19:54.822577+00:00",
+  "seed": 20261022,
+  "scale": "full",
+  "independent_runs": 2,
+  "production_database_modified": false,
+  "integrity_passed": true,
+  "tables": {
+    "learners": {
+      "run_a_count": 10000,
+      "run_b_count": 10000,
+      "run_a_sha256": "dc9f9b7d91e684e561de9e1a85c0887a32e6e6d5561cfd8ddd06cfd274ed260c",
+      "run_b_sha256": "dc9f9b7d91e684e561de9e1a85c0887a32e6e6d5561cfd8ddd06cfd274ed260c",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "courses": {
+      "run_a_count": 50,
+      "run_b_count": 50,
+      "run_a_sha256": "790ddafbf35a88a70c527239e431ba733f4c7948bf139606fe22381b331f8d1e",
+      "run_b_sha256": "790ddafbf35a88a70c527239e431ba733f4c7948bf139606fe22381b331f8d1e",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "skills": {
+      "run_a_count": 500,
+      "run_b_count": 500,
+      "run_a_sha256": "ddb68242af8308637f4c7db2b20c11e280651ebc1df9e6e704dc82b64ccc3123",
+      "run_b_sha256": "ddb68242af8308637f4c7db2b20c11e280651ebc1df9e6e704dc82b64ccc3123",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "skill_prerequisites": {
+      "run_a_count": 450,
+      "run_b_count": 450,
+      "run_a_sha256": "1ea95cfcf40c277e6d474a5b3ad734d671cd80e2ced6fcac385d1989c23e7e21",
+      "run_b_sha256": "1ea95cfcf40c277e6d474a5b3ad734d671cd80e2ced6fcac385d1989c23e7e21",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "content_items": {
+      "run_a_count": 2000,
+      "run_b_count": 2000,
+      "run_a_sha256": "9365683191d9b6735b2c9de116959a93b287b8a7b9bf5f46ae44d6bf2c29acc6",
+      "run_b_sha256": "9365683191d9b6735b2c9de116959a93b287b8a7b9bf5f46ae44d6bf2c29acc6",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "content_skills": {
+      "run_a_count": 2000,
+      "run_b_count": 2000,
+      "run_a_sha256": "bbfea6c490641c3a8caae88a0903dc721c53f0d843382409b383a237a8a2d2a4",
+      "run_b_sha256": "bbfea6c490641c3a8caae88a0903dc721c53f0d843382409b383a237a8a2d2a4",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "attempts": {
+      "run_a_count": 500000,
+      "run_b_count": 500000,
+      "run_a_sha256": "db786147ee86cc26ae1999d56a4be6f4bd48bf552db7ee0f46e6736814416317",
+      "run_b_sha256": "db786147ee86cc26ae1999d56a4be6f4bd48bf552db7ee0f46e6736814416317",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    },
+    "assessment_results": {
+      "run_a_count": 500000,
+      "run_b_count": 500000,
+      "run_a_sha256": "484a5c31fc8e5a955ac3dd6bfd0314dd7fe0385cb8935a4ec03097610e3bdfad",
+      "run_b_sha256": "484a5c31fc8e5a955ac3dd6bfd0314dd7fe0385cb8935a4ec03097610e3bdfad",
+      "count_match": true,
+      "hash_match": true,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

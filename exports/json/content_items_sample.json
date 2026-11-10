@@ -1,0 +1,52 @@
+[
+  {
+    "content_id": "CNT-000001",
+    "course_id": "CRS-000001",
+    "title": "Learning Activity 0001 - VIDEO",
+    "format": "VIDEO",
+    "difficulty": 3,
+    "duration_minutes": 27,
+    "status": "PUBLISHED",
+    "published_at": "2026-01-01T00:00:00"
+  },
+  {
+    "content_id": "CNT-000002",
+    "course_id": "CRS-000001",
+    "title": "Learning Activity 0002 - ARTICLE",
+    "format": "ARTICLE",
+    "difficulty": 3,
+    "duration_minutes": 23,
+    "status": "PUBLISHED",
+    "published_at": "2026-01-01T00:00:00"
+  },
+  {
+    "content_id": "CNT-000003",
+    "course_id": "CRS-000001",
+    "title": "Learning Activity 0003 - QUIZ",
+    "format": "QUIZ",
+    "difficulty": 1,
+    "duration_minutes": 8,
+    "status": "PUBLISHED",
+    "published_at": "2026-01-01T00:00:00"
+  },
+  {
+    "content_id": "CNT-000004",
+    "course_id": "CRS-000001",
+    "title": "Learning Activity 0004 - EXERCISE",
+    "format": "EXERCISE",
+    "difficulty": 1,
+    "duration_minutes": 19,
+    "status": "PUBLISHED",
+    "published_at": "2026-01-01T00:00:00"
+  },
+  {
+    "content_id": "CNT-000005",
+    "course_id": "CRS-000001",
+    "title": "Learning Activity 0005 - VIDEO",
+    "format": "VIDEO",
+    "difficulty": 1,
+    "duration_minutes": 5,
+    "status": "PUBLISHED",
+    "published_at": "2026-01-01T00:00:00"
+  }
+]

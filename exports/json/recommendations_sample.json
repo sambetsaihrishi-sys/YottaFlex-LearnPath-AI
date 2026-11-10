@@ -1,0 +1,62 @@
+[
+  {
+    "recommendation_id": "REC-000000001",
+    "learner_id": "LRN-000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001371",
+    "target_skill_id": "SKL-000371",
+    "generated_at": "2026-11-10T06:23:15.693104",
+    "mastery_at_decision": 0.3447,
+    "reason_code": "LOW_MASTERY",
+    "rationale": "Current mastery is 34%. Foundational practice is recommended.",
+    "priority_rank": 1
+  },
+  {
+    "recommendation_id": "REC-000000002",
+    "learner_id": "LRN-000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-000871",
+    "target_skill_id": "SKL-000371",
+    "generated_at": "2026-11-10T06:23:15.693104",
+    "mastery_at_decision": 0.3447,
+    "reason_code": "LOW_MASTERY",
+    "rationale": "Current mastery is 34%. Foundational practice is recommended.",
+    "priority_rank": 2
+  },
+  {
+    "recommendation_id": "REC-000000003",
+    "learner_id": "LRN-000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001871",
+    "target_skill_id": "SKL-000371",
+    "generated_at": "2026-11-10T06:23:15.693104",
+    "mastery_at_decision": 0.3447,
+    "reason_code": "LOW_MASTERY",
+    "rationale": "Current mastery is 34%. Foundational practice is recommended.",
+    "priority_rank": 3
+  },
+  {
+    "recommendation_id": "REC-000000004",
+    "learner_id": "LRN-000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-000371",
+    "target_skill_id": "SKL-000371",
+    "generated_at": "2026-11-10T06:23:15.693104",
+    "mastery_at_decision": 0.3447,
+    "reason_code": "LOW_MASTERY",
+    "rationale": "Current mastery is 34%. Foundational practice is recommended.",
+    "priority_rank": 4
+  },
+  {
+    "recommendation_id": "REC-000000005",
+    "learner_id": "LRN-000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001371",
+    "target_skill_id": "SKL-000371",
+    "generated_at": "2026-11-10T06:47:32.263887",
+    "mastery_at_decision": 0.3447,
+    "reason_code": "LOW_MASTERY",
+    "rationale": "Current mastery is 34%. Foundational practice is recommended.",
+    "priority_rank": 1
+  }
+]

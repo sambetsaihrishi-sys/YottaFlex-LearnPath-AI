@@ -1,0 +1,47 @@
+[
+  {
+    "attempt_id": "ATT-LRN-000001-000001",
+    "learner_id": "LRN-000001",
+    "content_id": "CNT-001377",
+    "recommendation_id": null,
+    "started_at": "2026-01-05T08:59:00",
+    "completed_at": "2026-01-05T09:36:00",
+    "status": "COMPLETED"
+  },
+  {
+    "attempt_id": "ATT-LRN-000002-000001",
+    "learner_id": "LRN-000002",
+    "content_id": "CNT-000906",
+    "recommendation_id": null,
+    "started_at": "2026-03-11T08:30:00",
+    "completed_at": "2026-03-11T08:55:00",
+    "status": "COMPLETED"
+  },
+  {
+    "attempt_id": "ATT-LRN-000003-000001",
+    "learner_id": "LRN-000003",
+    "content_id": "CNT-000242",
+    "recommendation_id": null,
+    "started_at": "2026-01-03T08:17:00",
+    "completed_at": "2026-01-03T08:26:00",
+    "status": "COMPLETED"
+  },
+  {
+    "attempt_id": "ATT-LRN-000004-000001",
+    "learner_id": "LRN-000004",
+    "content_id": "CNT-000373",
+    "recommendation_id": null,
+    "started_at": "2026-01-19T05:06:00",
+    "completed_at": "2026-01-19T05:13:00",
+    "status": "COMPLETED"
+  },
+  {
+    "attempt_id": "ATT-LRN-000005-000001",
+    "learner_id": "LRN-000005",
+    "content_id": "CNT-000143",
+    "recommendation_id": null,
+    "started_at": "2026-01-12T03:41:00",
+    "completed_at": "2026-01-12T04:22:00",
+    "status": "COMPLETED"
+  }
+]

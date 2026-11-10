@@ -1,0 +1,31 @@
+{
+  "total_cases": 5,
+  "detected_cases": 5,
+  "detections": [
+    {
+      "case_id": "NEG-001",
+      "detected": true,
+      "detected_label": "PREREQUISITE_VIOLATION"
+    },
+    {
+      "case_id": "NEG-002",
+      "detected": true,
+      "detected_label": "INVALID_ATTEMPT_TIMESTAMP"
+    },
+    {
+      "case_id": "NEG-003",
+      "detected": true,
+      "detected_label": "MISSING_SKILL_REFERENCE"
+    },
+    {
+      "case_id": "NEG-004",
+      "detected": true,
+      "detected_label": "FUTURE_MASTERY_LEAKAGE"
+    },
+    {
+      "case_id": "NEG-005",
+      "detected": true,
+      "detected_label": "LEARNING_PATH_NO_PROGRESS_LOOP"
+    }
+  ]
+}

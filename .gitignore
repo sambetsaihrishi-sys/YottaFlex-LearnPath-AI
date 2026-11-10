@@ -1,0 +1,43 @@
+# Python environment and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local settings and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated databases and backups
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+backups/
+
+# Large dataset exports
+exports/csv/attempts.csv
+exports/csv/assessment_results.csv
+exports/csv/mastery_snapshots.csv
+
+# Large SQL seed files
+exports/sql/*.sql
+exports/sql/*.sql.gz
+
+# Temporary files
+*.tmp
+*.bak

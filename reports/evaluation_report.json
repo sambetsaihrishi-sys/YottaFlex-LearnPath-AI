@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-11-10T06:18:29.270061+00:00",
+  "temporal_cutoff": "2026-05-25T09:06:00",
+  "train_records": 400000,
+  "test_records": 100000,
+  "evaluated_predictions": 95877,
+  "mae": 13.2959,
+  "rmse": 16.5601,
+  "cold_start_learners": 1000,
+  "cold_start_rate": 0.1,
+  "evaluation_method": "Temporal holdout with historical mastery"
+}

@@ -1,0 +1,4 @@
+# Keep generated data files unchanged across platforms
+*.csv  -text
+*.json -text
+*.db   binary

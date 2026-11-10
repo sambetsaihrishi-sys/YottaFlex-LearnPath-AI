@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "NEG-001",
+    "is_anomaly": true,
+    "expected_issues": [
+      "PREREQUISITE_VIOLATION"
+    ]
+  },
+  {
+    "case_id": "OK-001",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-002",
+    "is_anomaly": true,
+    "expected_issues": [
+      "INVALID_ATTEMPT_TIMESTAMPS"
+    ]
+  },
+  {
+    "case_id": "OK-002",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-003",
+    "is_anomaly": true,
+    "expected_issues": [
+      "UNKNOWN_SKILL_REFERENCE"
+    ]
+  },
+  {
+    "case_id": "OK-003",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-004",
+    "is_anomaly": true,
+    "expected_issues": [
+      "FUTURE_MASTERY_LEAKAGE"
+    ]
+  },
+  {
+    "case_id": "OK-004",
+    "is_anomaly": false,
+    "expected_issues": []
+  },
+  {
+    "case_id": "NEG-005",
+    "is_anomaly": true,
+    "expected_issues": [
+      "PATH_LOOP_NO_PROGRESS"
+    ]
+  },
+  {
+    "case_id": "OK-005",
+    "is_anomaly": false,
+    "expected_issues": []
+  }
+]

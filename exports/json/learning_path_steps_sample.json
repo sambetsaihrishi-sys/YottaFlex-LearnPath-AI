@@ -1,0 +1,47 @@
+[
+  {
+    "step_id": "STEP-000000001",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001371",
+    "step_number": 1,
+    "mastery_before": 0.3447,
+    "mastery_after": 0.5472,
+    "recorded_at": "2026-11-10T06:53:15.693104"
+  },
+  {
+    "step_id": "STEP-000000002",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-000871",
+    "step_number": 2,
+    "mastery_before": 0.3447,
+    "mastery_after": 0.6943,
+    "recorded_at": "2026-11-10T06:53:15.693104"
+  },
+  {
+    "step_id": "STEP-000000003",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001371",
+    "step_number": 3,
+    "mastery_before": 0.6943,
+    "mastery_after": 0.8194,
+    "recorded_at": "2026-11-10T07:17:32.263887"
+  },
+  {
+    "step_id": "STEP-000000004",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-001371",
+    "step_number": 4,
+    "mastery_before": 0.8194,
+    "mastery_after": 0.8501,
+    "recorded_at": "2026-11-10T07:46:20.046895"
+  },
+  {
+    "step_id": "STEP-000000005",
+    "path_id": "PATH-2026-000001",
+    "content_id": "CNT-000372",
+    "step_number": 5,
+    "mastery_before": 0.3997,
+    "mastery_after": 0.5998,
+    "recorded_at": "2026-11-10T10:00:48.878787"
+  }
+]

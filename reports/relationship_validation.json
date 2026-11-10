@@ -1,0 +1,39 @@
+{
+  "cross_course_content_skill": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "recommendation_wrong_learner_path": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "recommendation_wrong_course": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "assessment_on_unfinished_attempt": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "assessment_before_completion": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "attempt_recommendation_wrong_learner": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "attempt_recommendation_wrong_content": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "unmapped_recommendation_skill": {
+    "violations": 0,
+    "status": "PASS"
+  },
+  "prerequisite_cycles": {
+    "violations": 0,
+    "status": "PASS",
+    "examples": []
+  }
+}

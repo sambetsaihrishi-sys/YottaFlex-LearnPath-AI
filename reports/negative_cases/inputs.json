@@ -1,0 +1,180 @@
+[
+  {
+    "case_id": "NEG-001",
+    "data": {
+      "recommendation": {
+        "target_skill_id": "SKL-000002",
+        "generated_at": "2026-10-22T12:00:00"
+      },
+      "prerequisites": [
+        {
+          "skill_id": "SKL-000002",
+          "required_skill_id": "SKL-000001",
+          "minimum_mastery": 0.7,
+          "status": "ACTIVE",
+          "effective_from": "2026-01-01T00:00:00",
+          "effective_to": null
+        }
+      ],
+      "mastery_by_skill": {
+        "SKL-000001": 0.45
+      }
+    }
+  },
+  {
+    "case_id": "OK-001",
+    "data": {
+      "recommendation": {
+        "target_skill_id": "SKL-000002",
+        "generated_at": "2026-10-22T12:00:00"
+      },
+      "prerequisites": [
+        {
+          "skill_id": "SKL-000002",
+          "required_skill_id": "SKL-000001",
+          "minimum_mastery": 0.7,
+          "status": "ACTIVE",
+          "effective_from": "2026-01-01T00:00:00",
+          "effective_to": null
+        }
+      ],
+      "mastery_by_skill": {
+        "SKL-000001": 0.85
+      }
+    }
+  },
+  {
+    "case_id": "NEG-002",
+    "data": {
+      "attempt": {
+        "started_at": "2026-10-22T10:00:00",
+        "completed_at": "2026-10-22T09:55:00",
+        "status": "COMPLETED"
+      }
+    }
+  },
+  {
+    "case_id": "OK-002",
+    "data": {
+      "attempt": {
+        "started_at": "2026-10-22T10:00:00",
+        "completed_at": "2026-10-22T10:30:00",
+        "status": "COMPLETED"
+      }
+    }
+  },
+  {
+    "case_id": "NEG-003",
+    "data": {
+      "known_skill_ids": [
+        "SKL-000001",
+        "SKL-000002"
+      ],
+      "content_skill_mappings": [
+        {
+          "content_id": "CNT-000001",
+          "skill_id": "SKL-999999"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "OK-003",
+    "data": {
+      "known_skill_ids": [
+        "SKL-000001",
+        "SKL-000002"
+      ],
+      "content_skill_mappings": [
+        {
+          "content_id": "CNT-000001",
+          "skill_id": "SKL-000001"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "NEG-004",
+    "data": {
+      "mastery_snapshot": {
+        "calculated_at": "2026-10-22T12:00:00",
+        "source_assessment_ids": [
+          "RES-000001"
+        ]
+      },
+      "assessments": [
+        {
+          "result_id": "RES-000001",
+          "assessed_at": "2026-10-23T08:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "OK-004",
+    "data": {
+      "mastery_snapshot": {
+        "calculated_at": "2026-10-22T12:00:00",
+        "source_assessment_ids": [
+          "RES-000001"
+        ]
+      },
+      "assessments": [
+        {
+          "result_id": "RES-000001",
+          "assessed_at": "2026-10-22T11:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "NEG-005",
+    "data": {
+      "learning_path_steps": [
+        {
+          "step_number": 1,
+          "content_id": "CNT-000001",
+          "mastery_before": 0.5,
+          "mastery_after": 0.5
+        },
+        {
+          "step_number": 2,
+          "content_id": "CNT-000002",
+          "mastery_before": 0.5,
+          "mastery_after": 0.5
+        },
+        {
+          "step_number": 3,
+          "content_id": "CNT-000001",
+          "mastery_before": 0.5,
+          "mastery_after": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "OK-005",
+    "data": {
+      "learning_path_steps": [
+        {
+          "step_number": 1,
+          "content_id": "CNT-000001",
+          "mastery_before": 0.5,
+          "mastery_after": 0.5
+        },
+        {
+          "step_number": 2,
+          "content_id": "CNT-000002",
+          "mastery_before": 0.5,
+          "mastery_after": 0.6
+        },
+        {
+          "step_number": 3,
+          "content_id": "CNT-000001",
+          "mastery_before": 0.5,
+          "mastery_after": 0.5
+        }
+      ]
+    }
+  }
+]

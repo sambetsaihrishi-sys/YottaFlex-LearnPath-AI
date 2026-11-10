@@ -1,0 +1,14 @@
+{
+  "project": "YottaFlex LearnPath AI",
+  "evaluation": "Temporal Holdout",
+  "generated_at": "2026-11-10T06:58:36.384702+00:00",
+  "split": "80% historical / 20% future within each learner-skill group",
+  "prediction_method": "Mean of last five training assessment scores",
+  "learner_skill_groups_evaluated": 59716,
+  "future_assessments_evaluated": 105254,
+  "metrics": {
+    "mae": 12.5153,
+    "rmse": 15.4866,
+    "accuracy_within_20_points": 0.7978
+  }
+}
