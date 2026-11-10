@@ -173,7 +173,24 @@ def record_outcome(recommendation_id, score, completed_at=None):
             """
         ).fetchone()[0]
 
-        event_id = f"EVT-{next_event:09d}"
+        conn.execute(
+            """
+            INSERT INTO recommendation_events
+            (
+                event_id,
+                recommendation_id,
+                event_type,
+                occurred_at
+            )
+            VALUES (?, ?, ?, ?)
+            """,
+            (
+                f"EVT-{next_event:09d}",
+                recommendation_id,
+                "STARTED",
+                started_at.isoformat()
+            )
+        )
 
         conn.execute(
             """
@@ -187,7 +204,7 @@ def record_outcome(recommendation_id, score, completed_at=None):
             VALUES (?, ?, ?, ?)
             """,
             (
-                event_id,
+                f"EVT-{next_event + 1:09d}",
                 recommendation_id,
                 "COMPLETED",
                 completed_at.isoformat()

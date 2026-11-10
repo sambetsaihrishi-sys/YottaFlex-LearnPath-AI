@@ -147,8 +147,11 @@ def build_mastery_snapshots(as_of=None):
         conn.close()
 
 
-def get_skill_mastery(learner_id, skill_id, as_of=None):
-    conn = get_connection()
+def get_skill_mastery(learner_id, skill_id, as_of=None, conn=None):
+    owns_connection = conn is None
+
+    if owns_connection:
+        conn = get_connection()
 
     try:
         if as_of is None:
@@ -191,7 +194,8 @@ def get_skill_mastery(learner_id, skill_id, as_of=None):
         return calculate_mastery(scores)
 
     finally:
-        conn.close()
+        if owns_connection:
+            conn.close()
 
 
 if __name__ == "__main__":
