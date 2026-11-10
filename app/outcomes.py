@@ -64,6 +64,28 @@ def record_outcome(recommendation_id, score, completed_at=None):
             completed_at - timedelta(minutes=20)
         )
 
+        latest_step = conn.execute(
+            """
+            SELECT recorded_at
+            FROM learning_path_steps
+            WHERE path_id = (
+                SELECT path_id
+                FROM recommendations
+                WHERE recommendation_id = ?
+            )
+            ORDER BY step_number DESC
+            LIMIT 1
+            """,
+            (recommendation_id,)
+        ).fetchone()
+
+        if latest_step is not None:
+            if completed_at.isoformat() < latest_step["recorded_at"]:
+                raise ValueError(
+                    "Activity completion cannot occur before "
+                    "the previous learning-path step"
+                )
+
         learner_id = recommendation["learner_id"]
         skill_id = recommendation["target_skill_id"]
 
